@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My TO-DO</title>
+    <link rel="stylesheet" href="createToDo.css">
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="uprText">
+            <h1>MY</h1>
+            <h1>Awesome</h1>
+            <h1>TODO</h1>
+        </div>
+        <div id="inptField">
+            <input type="text" name="" id='inpt' placeholder="what's on ur mind ">
+            <div id="btnn">
+                <button type="button" id="addBtn" class="btn1" onclick="addTodo()">ADD TODO</button>
+                <button type="button" id="removeBtn" class="btn1" onclick="removeTodo()">REMOVE FROM TODO</button>
+            </div>
+
+
+        </div>
+
+        <div>
+
+        </div id="list">
+        <ul id="enList">
+            <li class="ltText"><input type="checkbox"  checked><label>Go to Gym</label></li>
+            <li class="ltText"><input type="checkbox" ><label>Watch Movies</label></li>
+            <li class="ltText"><input type="checkbox" ><label>Bunk Office</label></li>
+            <li class="ltText"><input type="checkbox" ><label>Travelling</label></li>
+        </ul>
+    </div>
+
+
+    <script src="createToDo.js"></script>
+
+</body>
+
+</html>

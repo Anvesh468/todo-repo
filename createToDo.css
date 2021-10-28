@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(220, 245, 199);
+}
+
+
+#container{
+    display:flex;
+    margin-top:20px;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right:auto;
+    border: 3px solid rgb(16, 3, 128);
+    height:600px;
+    width:300px;
+    background-color: rgb(192, 233, 233);
+    border-radius: 10px;
+}
+
+#uprText{
+    display:flex;
+    height:200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#uprText h1{
+    display: block;
+    flex-direction:column ;
+    margin-left:auto;
+    font-weight: 800;
+    letter-spacing:2px;
+    margin-right:auto;
+    font-size: 28px;
+    color:rgb(6, 69, 105);
+    margin-bottom: 5px;
+
+}
+
+#uprText h1:hover{
+    text-shadow: 1px 1px red;
+    cursor:grab;
+
+}
+
+#inptField{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#inpt{
+    display:block; 
+    font-size: 16px;
+    font-family:-apple-system, BlinkMacSystemFont;
+    margin-left:auto;
+    margin-right:auto;
+    border-top:1px transparent;
+    border-left:1px transparent;
+    border-bottom:1px solid rgb(45, 116, 5);
+    border-bottom:1px solid rgb(45, 116, 5);
+    border-right:1px solid rgb(45, 116, 5);
+    border-radius: 8px;
+    margin-bottom:10px;
+    background-color: rgb(231, 133, 133);
+    letter-spacing:1.5px;
+    width:260px;
+    padding:5px;
+}
+
+::placeholder{ 
+    text-align: center;
+}
+
+#inpt:hover{
+    opacity: .7;
+    cursor:progress;
+}
+
+#inpt:focus{
+    display: block;
+    border-top:1px transparent;
+    border-left:1px transparent;
+    border-bottom:1px solid rgb(45, 116, 5);
+    border-bottom:1px solid rgb(45, 116, 5);
+    border-right:1px solid rgb(45, 116, 5);
+    background-color: rgb(191, 224, 224);
+    outline: none;
+    color:rgb(82, 119, 8)
+    
+    
+}
+
+#inpt:focus::placeholder{
+    color:transparent;
+}
+
+#btnn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5px auto;
+}
+
+#addBtn{
+    display: block;
+    color:white;
+    background-color: rgb(15, 164, 190);
+    border-radius: 5px;
+    border-top:1px solid rgb(15, 164, 190);
+    border-left:1px solid trgb(15, 164, 190);
+    border-bottom:1px solid rgb(58, 107, 3);
+    border-bottom:1px solid rgb(58, 107, 3);
+    border-right:1px solid rgb(58, 107, 3);
+    padding:5px;
+}
+
+#addBtn:hover{
+    box-shadow:1px 1px  rgb(49, 36, 226);
+    cursor:pointer;
+
+}
+
+#removeBtn{
+    display: block;
+    color:white;
+    background-color: tomato;
+    border-radius: 5px;
+    border-top:1px solid tomato;
+    border-left:1px solid tomato;
+    border-bottom:1px solid rgb(58, 107, 3);
+    border-bottom:1px solid rgb(58, 107, 3);
+    border-right:1px solid rgb(58, 107, 3);
+    padding:5px;
+
+}
+
+#removeBtn:hover{
+    box-shadow:1px 1px  rgb(58, 107, 3);
+    cursor:pointer;
+
+}
+
+#list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#enList{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    margin-left: 20px;
+    margin-right:20px;
+    border:2px solid rgb(144, 180, 245);
+    padding:5px;
+    border-radius: 10px;
+}
+
+.ltText{
+    display: block;
+    margin-bottom: 5px;
+    font-size:20px;
+    color:rgb(6, 109, 99);
+    font-weight:600;
+    letter-spacing: 1px;
+}
+
+.ltText:hover{
+    cursor:pointer;
+    text-decoration: 1.3px rgb(152, 160, 194) underline;
+
+}
+
+
+
+.ltText input{
+    display: inline-block;
+    margin-right:10px;
+}
+
+
+
